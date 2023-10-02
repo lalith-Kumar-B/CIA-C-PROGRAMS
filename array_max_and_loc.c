@@ -1,7 +1,7 @@
 // find the maximum of the array and also its location.
 #include<stdio.h>
 void main(){
-	int max=0,loc,n,i,j;
+	int max,loc,n,i,j;
 	//input
 	printf("Enter the size of the array : ");
 	scanf("%d",&n);
@@ -11,6 +11,7 @@ void main(){
 		scanf("%d",&a[i]);
 	}
 	//finding the maximum value.
+	max=a[0];
 	for(i=0;i<n;i++){
 		if(a[i]>max){
 			max=a[i];
