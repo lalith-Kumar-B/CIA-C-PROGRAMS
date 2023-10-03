@@ -6,7 +6,7 @@ int main(){
 	scanf("%d",&n);
 	for(i=1;i<=n;i++){
 		term=2*i;
-			sum+=i;
+		sum+=term;
 		
 	}
 	printf("The sum of the series is %d",sum);
