@@ -1,7 +1,7 @@
 // c program To find the sum of N terms of the series S =1! - 3! + 5! - …N terms.
 #include<stdio.h>
 int main(){
-	int sum=0,n,i,j,m,sign=1;
+	int sum=0,n,i,j,m,sign=1,term;
 	printf("Program To find the sum of the N terms of the series  S =1! - 3! + 5! -... N terms\nEnter the value of N:");
 	scanf("%d",&n);
 	for(i=1;i<=n;i++){
