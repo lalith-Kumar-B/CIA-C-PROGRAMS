@@ -12,7 +12,7 @@ int main(){
 	printf("Program To find the sum of the N terms of the series  1!*3! + 2!*5! + 3!*7!+... N terms\nEnter the value of N:");
 	scanf("%d",&n);
 	for(j=1;j<=n;j++){
-		term=fac(j)*fac(j+2);
+		term=fac(j)*fac(2*j-1);
 		sum+=term;
 	}
 	printf("The sum of the series is %d",sum);
